@@ -43,12 +43,14 @@ margin-bottom: 22px;
     width: fit-content;
     background-color: #fff;
     padding: 36px;
+    line-height: 1;
 
 }
 
 #ctr {
     text-align: center;
     display: block;
+    margin: auto;
 }
 
 .cta-btn {
@@ -252,7 +254,6 @@ h2,
 h3 {
     font-family: 'Francois One', 'Arial', sans-serif;
     color: #8e2d53;
-    line-height: 0;
 }
 
 p,
@@ -268,11 +269,7 @@ h6 {
 .container-fluid {
     width: 100%;
     padding: 0 1rem;
-    margin: 0 auto;
-}
-
-.container {
-    padding: 22px;
+    margin: 22px auto;
 }
 
 .row {
