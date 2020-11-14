@@ -6,22 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="PLACEHOLDER">
     <meta name="description" content="PLACEHOLDER">
-    <meta name="author" content="Jennifer Doolin">
+    <meta name="author" content="Jennifer Doolin, Brandon Le">
 
     <title>Page Title</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/8394b8f877.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <header>
         <nav>
-            <ul>
+            <div class="navbar-brand"><a href="index.html">Thirsty's Tavern</a></div>
+    
+            <button class="navbar-toggle" type="button" data-target="#main-navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <ul id="main-navigation" class="navbar">
                 <li><a href="index.html" title="Home">Home</a></li>
-                <li><a href="about.html" title="About Us">About Us</a></li>
-                <li><a href="menu.html" title="Menu">Menu</a>
-                <li><a href="events.html" title="Events">Events</a>
+                <li><a href="about.html" title="About">About Us</a></li>
+                <li class="dropdown"><a href="menu.html" title="Menu">Menu
+                    </a>
+                    <ul>
+                        <li><a href="projects.html#specials" title="Specials">Specials</a></li>
+                        <li><a href="projects.html#beer" title="Beer">Beer</a></li>
+                        <li><a href="projects.html#food" title="Food">Food</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="events.html" title="Events">Events
+                </a>
+                <ul>
+                    <li><a href="book-event.html" title="Book an Event">Book an Event</a></li>
+                    <li><a href="entertainment.html" title="Entertainment">Entertainment</a></li>
+                </ul>
+            </li>
                 <li><a href="contact.html" title="Contact">Contact</a></li>
             </ul>
         </nav>

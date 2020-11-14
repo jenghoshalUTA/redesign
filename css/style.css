@@ -20,8 +20,10 @@ body {
 }
 
 header {
+    display: inline-block;
     background-color: #8e2d53;
     color: #fff;
+    width: 100%;
     padding: 22px;
     height: 10vh;
 }
@@ -101,14 +103,10 @@ footer img {
 
 /*Navigation*/
 .navbar-brand {
-    font-family: 'Francois One', 'Arial', sans-serif;
     display: block;
-    line-height: 1;
+    overflow: hidden;
+    background: url("../img/thirstys-logo.png") no-repeat 0 0/ contain transparent;
     text-indent: -99999px;
-}
-
-.navbar-brand a {
-    font-size: 24px !important;
 }
 
 nav {
@@ -171,6 +169,8 @@ nav {
     overflow: hidden;
     padding: 0.5rem 0.75rem;
     text-decoration: none;
+    color: #fff;
+
 }
 
 .navbar .dropdown>a:after {
