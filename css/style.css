@@ -29,6 +29,20 @@ height: 10vh;
 
 .atf {
 height: 40vh;
+background-image: url("https://i.imgur.com/WKjYzxD.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 20% 10%;
+margin-top: -10vh;
+margin-bottom: 22px;
+}
+
+.atf-container {
+display: block;
+width: fit-content;
+
 }
 
 .cta-btn {
