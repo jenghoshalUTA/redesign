@@ -14,7 +14,6 @@ body {
     margin: 0;
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
     line-height: 1.8;
     height: 100%;
     position: relative;
@@ -28,7 +27,7 @@ height: 10vh;
 }
 
 .atf {
-height: 40vh;
+height: 30vh;
 background-image: url("https://i.imgur.com/WKjYzxD.jpeg");
 background-position: center;
 background-repeat: no-repeat;
@@ -40,9 +39,16 @@ margin-bottom: 22px;
 }
 
 .atf-container {
-display: block;
-width: fit-content;
+    display: block;
+    width: fit-content;
+    background-color: #fff;
+    padding: 36px;
 
+}
+
+#ctr {
+    text-align: center;
+    display: block;
 }
 
 .cta-btn {
@@ -51,13 +57,27 @@ width: fit-content;
     text-transform: uppercase;
     text-align: center;
     display: inline-block;
-    border-radius: 15px 0px 15px 0px;
+    border-radius: 8px;
     border: none;
-    padding: 8px;
+    padding: 12px;
     cursor: pointer;
     text-decoration: none;
     font-family: 'Open Sans', 'Arial', sans-serif;
     max-width: fit-content;
+}
+
+hr.full {
+    border-top: 2px solid #8e2d53;
+}
+
+hr.half {
+    border-top: 2px solid #8e2d53;
+    width: 50%;
+}
+
+.row img {
+    max-height: -webkit-fill-available;
+    object-fit: cover;
 }
 
 img.social {
@@ -228,44 +248,20 @@ nav {
 /*Typography*/
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Francois One', 'Arial', sans-serif;
-    font-weight: normal;
     color: #8e2d53;
+    line-height: 0;
 }
 
 p,
-h3,
 h4,
 h5,
 h6 {
     font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
-h1 {
-    font-size: 60px;
-}
-
-h2 {
-    font-size: 42px;
-}
-
-h2.lft {
-    margin: 0;
-}
-
-.box-hdr {
-    margin: 0;
-}
-
-h3 {
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 0;
-    padding-top: 1.8rem;
-}
 
 /*Grid System*/
 .container,
@@ -273,6 +269,10 @@ h3 {
     width: 100%;
     padding: 0 1rem;
     margin: 0 auto;
+}
+
+.container {
+    padding: 22px;
 }
 
 .row {
