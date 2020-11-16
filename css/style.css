@@ -24,8 +24,7 @@ header {
     background-color: #8e2d53;
     color: #fff;
     width: 100%;
-    padding: 22px;
-    height: 10vh;
+    padding-top: 22px;
 }
 
 .atf {
@@ -46,6 +45,7 @@ header {
     background-color: #fff;
     padding: 36px;
     line-height: 1;
+    opacity: 90%;
 
 }
 
@@ -103,9 +103,10 @@ footer img {
 
 /*Navigation*/
 .navbar-brand {
+    height: 90px;
     display: block;
     overflow: hidden;
-    background: url("../img/thirstys-logo.png") no-repeat 0 0/ contain transparent;
+    background: url("../img/thirstys-logo.png") no-repeat 0 0/ cover transparent;
     text-indent: -99999px;
 }
 
@@ -119,8 +120,8 @@ nav {
 
 .navbar-brand {
     overflow: hidden;
-    flex: 0 0 calc(100% - 3rem);
-    max-width: 0 0 calc(100% - 3rem);
+    flex: 0 0 calc(90px - 3rem);
+    max-width: 0 0 calc(90px - 3rem);
 }
 
 .navbar-brand a {
@@ -208,8 +209,12 @@ nav {
 @media screen and (min-width: 768px) {
 
     .navbar-brand {
-        flex: 0 0 180px;
-        max-width: 180px;
+        flex: 0 0 90px;
+        max-width: 90px;
+    }
+
+    .navbar-brand a {
+        height: 90px;
     }
 
     .navbar-toggle {
@@ -220,7 +225,7 @@ nav {
         display: block;
         flex: 0 1 calc(100% - 220px);
         max-width: 0 1 calc(100% - 220px);
-        text-align: right;
+        text-align: left;
     }
 
     .navbar>li {
