@@ -140,8 +140,8 @@ nav {
 
 .navbar-brand {
     overflow: hidden;
-    flex: 0 0 calc(90px - 3rem);
-    max-width: 0 0 calc(90px - 3rem);
+    flex: 0 0 calc(100% - 3rem);
+    max-width: 0 0 calc(100% - 3rem);
 }
 
 .navbar-brand a {
@@ -233,6 +233,10 @@ nav {
 
 @media screen and (min-width: 768px) {
 
+    .mob-none {
+        display: contents;
+    }
+
     .navbar-brand {
         flex: 0 0 90px;
         max-width: 90px;
@@ -276,7 +280,13 @@ nav {
     .navbar.open a {
         color: #fff;
     }
+    .navbar-brand {
+    background: url(../img/thirstys-logo.png) no-repeat 0 0/ contain transparent;
 }
+
+.mob-none {
+    display: none;
+}}
 
 /*Typography*/
 
