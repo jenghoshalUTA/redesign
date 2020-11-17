@@ -113,6 +113,10 @@ footer a {
     text-transform: uppercase;
 }
 
+.onespc {
+    margin: -1em;
+}
+
 footer li {
     list-style-type: none;
 
@@ -786,4 +790,33 @@ h6 {
 
 .child-5 {
     flex: 5 5 20%;
+}
+
+/*Menu*/
+
+.row.menu {
+    flex-flow: row;
+    text-align: center;
+}
+
+.hlgt {
+    color: #fffcf6;
+}
+
+#col-lgt,
+#col-drk {
+    margin: 4px;
+    padding: 12px;
+}
+
+#col-drk {
+    background-color: #8e2d53;
+}
+
+#col-drk p {
+    color: #fffcf6;
+}
+
+#col-lgt {
+    background-color: #fffcf6;
 }
