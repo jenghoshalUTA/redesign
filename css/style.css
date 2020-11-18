@@ -162,6 +162,11 @@ textarea {
     max-width: fit-content;
 }
 
+.menu img {
+    max-height: 150px;
+    max-width: fit-content;
+    object-fit: cover;
+}
 /*Navigation*/
 .navbar-brand {
     min-width: 90px;
@@ -263,8 +268,8 @@ nav {
 }
 
 .navbar .dropdown ul a:hover {
-    background-color: #8e2d53;
-    color: #fff;
+    background-color: #fffcf6;
+    color: #8e2d53;
 }
 
 .social {
@@ -856,4 +861,43 @@ h6 {
 
 #col-lgt {
     background-color: #fffcf6;
+}
+
+@media screen and (max-width: 731px) {
+
+.row {
+    margin: 0;
+    flex-flow: column;
+    align-items: center;
+}
+
+.col-1,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    max-width: 100%;
+}
+
+.row.menu {
+    flex-flow: column;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.navbar .dropdown ul {
+    display: block;
+}
+
+.navbar .dropdown>a:after {
+    display: none;
+}
 }
