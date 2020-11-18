@@ -255,7 +255,8 @@ nav {
     display: none;
 }
 
-.navbar .dropdown.open ul {
+.navbar .dropdown.open ul,
+.navbar .dropdown:hover ul {
     display: block;
 }
 

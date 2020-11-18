@@ -17,8 +17,8 @@ $(function(){
     //dropdown
     //1 - listen for click on .dropdown > a
     //2 - toggle open class on .dropdown element
-    $(".navbar .dropdown > a").hover(function(){
+    /*$(".navbar .dropdown > a").hover(function(){
         $(this).parent().toggleClass("open");
-})
+})*/
 
 })
