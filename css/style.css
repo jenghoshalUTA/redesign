@@ -254,7 +254,7 @@ nav {
     padding-left: 5px;
 }
 
-.navbar .dropdown.open>a:after {
+.navbar .dropdown:hover>a:after {
     content: "\f0d7";
 }
 
@@ -919,5 +919,29 @@ nav {
 
 #footer-space {
     align-items: start;
+    padding: 0;
 }
+}
+
+#vis-link {
+    text-transform: none;
+    text-decoration: underline;
+}
+
+table {
+    margin: -1em 0 0 -3px;
+    width: 100%;
+    }
+
+th, td {
+        color: #fff;
+
+    }
+.hours thead {
+    text-align: left;
+}
+
+
+#col-spc {
+    margin-top: 0;
 }
