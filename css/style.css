@@ -167,6 +167,12 @@ textarea {
     max-width: fit-content;
     object-fit: cover;
 }
+
+#ind-list {
+    align-items: flex-start;
+    margin: 0;
+}
+
 /*Navigation*/
 .navbar-brand {
     min-width: 90px;
@@ -245,6 +251,7 @@ nav {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     position: absolute;
+    padding-left: 5px;
 }
 
 .navbar .dropdown.open>a:after {
@@ -276,6 +283,10 @@ nav {
 .social {
     height: 30px;
     width: 30px;
+}
+
+.onespc {
+    padding-inline-start: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -900,5 +911,13 @@ nav {
 
 .navbar .dropdown>a:after {
     display: none;
+}
+
+.col-4.img-none {
+    display: none;
+}
+
+#footer-space {
+    align-items: start;
 }
 }
