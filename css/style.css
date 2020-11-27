@@ -24,7 +24,7 @@ header {
 
 .atf {
     height: 60vh;
-    background-image: url(../img/atf-bg.jpg);
+    background-image: url(../img/tavern-food.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@ img.social {
 }
 
 .container.spcr {
-padding: 36px;
+    padding: 36px;
 }
 
 footer {
@@ -105,7 +105,9 @@ footer {
     margin-top: 36px;
 }
 
-footer p, footer b, footer a {
+footer p,
+footer b,
+footer a {
     color: #fff;
 }
 
@@ -120,7 +122,8 @@ footer li {
 }
 
 #ft-logo {
-object-fit: contain;}
+    object-fit: contain;
+}
 
 .evt-box {
     background-color: #8e2d53;
@@ -338,13 +341,15 @@ nav {
     .navbar.open a {
         color: #fff;
     }
-    .navbar-brand {
-    background: url(../img/thirstys-logo.png) no-repeat 0 0/ contain transparent;
-}
 
-.mob-none {
-    display: none;
-}}
+    .navbar-brand {
+        background: url(../img/thirstys-logo.png) no-repeat 0 0/ contain transparent;
+    }
+
+    .mob-none {
+        display: none;
+    }
+}
 
 /*Typography*/
 
@@ -877,50 +882,70 @@ h6 {
 
 @media screen and (max-width: 731px) {
 
-.row {
-    margin: 0;
-    flex-flow: column;
-    align-items: center;
+    .row {
+        margin: 0;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .col-1,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        max-width: 100%;
+    }
+
+    .row.menu {
+        flex-flow: column;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .navbar .dropdown ul {
+        display: block;
+    }
+
+    .navbar .dropdown>a:after {
+        display: none;
+    }
+
+    .col-4.img-none {
+        display: none;
+    }
+
+    #footer-space {
+        align-items: start;
+        padding: 0;
+
+
+    }
+
+    .atf {
+        background-image: url(../img/tavern-food.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 250px;
+    }
+
+    .atf-container {
+        display: none;
+    }
 }
 
-.col-1,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-    max-width: 100%;
-}
-
-.row.menu {
-    flex-flow: column;
-}
-
-nav {
-    justify-content: space-between;
-}
-
-.navbar .dropdown ul {
-    display: block;
-}
-
-.navbar .dropdown>a:after {
-    display: none;
-}
-
-.col-4.img-none {
-    display: none;
-}
-
-#footer-space {
-    align-items: start;
-    padding: 0;
-}
+@media screen and (min-width: 731px) {
+    .atf-mobile {
+        display: none;
+    }
 }
 
 #vis-link {
@@ -931,12 +956,14 @@ nav {
 table {
     margin: -1em 0 0 -3px;
     width: 100%;
-    }
+}
 
-th, td {
-        color: #fff;
+th,
+td {
+    color: #fff;
 
-    }
+}
+
 .hours thead {
     text-align: left;
 }
