@@ -872,7 +872,8 @@ h6 {
     background-color: #8e2d53;
 }
 
-#col-drk p {
+#col-drk p,
+#col-drk b {
     color: #fffcf6;
 }
 
