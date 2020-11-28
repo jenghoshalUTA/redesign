@@ -941,6 +941,10 @@ h6 {
     .atf-container {
         display: none;
     }
+
+    #col-full {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 731px) {
@@ -959,8 +963,8 @@ table {
     width: 100%;
 }
 
-th,
-td {
+footer th,
+footer td {
     color: #fff;
 
 }
