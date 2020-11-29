@@ -977,3 +977,8 @@ footer td {
 #col-spc {
     margin-top: 0;
 }
+
+.evt-row img {
+    object-fit: cover;
+    width: 100%;
+}
